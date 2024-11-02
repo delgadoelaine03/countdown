@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Rebeca faz 15!" />
+    <meta property="og:type" content="text" />
+    <meta property="og:description " content="Contagem regressiva para a festa da Rebeca." />
+    <meta property="og:url" content="https://rebecafaz15.netlify.app/" />
+    <meta property="og:image" content="https://rebecafaz15.netlify.app" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href= "./img/cake.png" type="image/x-icon" />
+
+<title>Rebeca faz 15</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=IBM+Plex+Mono:wght@400;600&family=Roboto&display=swap" rel="stylesheet" />     
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main data-js="bubbles-container">
+        <header>
+            <h1>Rebeca faz 17</h1>
+        </header>
+        
+        <article id="countdown" class="countdown">
+
+            <section  class="time">
+                <h2 id="days"></h2>
+                <small>dias</small>                
+            </section>
+
+            <section  class="time">
+                <h2 id="hours"></h2>
+                <small>horas</small>    
+            </section>
+
+            <section  class="time">
+                <h2 id="minutes"></h2>
+                <small>minutos</small>    
+            </section>
+
+            <section  class="time">
+                <h2 id="seconds"></h2>
+                <small>segundos</small>
+            </section>
+             
+        </article>
+    
+        <img 
+        src="./img/spinner.gif"
+        alt="Carregando"
+        id="loading"
+        class="loading
+        "/>        
+        
+        <aside id="bDay" class="bDay">
+            10 de julho de 2025
+        </aside>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
